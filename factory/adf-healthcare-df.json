@@ -1,0 +1,15 @@
+{
+	"name": "adf-healthcare-df",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a887862-92ae-489c-8260-515aeb2a0701",
+		"tenantId": "e6543eee-c237-4dea-95f1-be164916bdc1"
+	}
+}
