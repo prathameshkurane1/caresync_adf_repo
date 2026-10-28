@@ -1,0 +1,21 @@
+{
+	"name": "LS_SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-VBOL6PK",
+			"database": "data",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "DESKTOP-VBOL6PK\\prath",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxZTMyMzEzNC0wOTYxLTQ1NjEtODVhMS1kNDRkNDNkNjdmOGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime-sql-server-new",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
