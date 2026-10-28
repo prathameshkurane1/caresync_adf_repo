@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntime-sql-server-new",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
