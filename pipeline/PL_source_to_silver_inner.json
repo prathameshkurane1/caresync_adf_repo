@@ -113,7 +113,7 @@
 						"parameters": {
 							"container": "landing",
 							"folder": {
-								"value": "@concat(activity('Read Table Details').output.firstRow.source_system,'/', activity('Read Table Details').output.firstRow.source_table_name,'/', variables('start time'))",
+								"value": "@concat(activity('Read Table Details').output.firstRow.source_system,'/',activity('Read Table Details').output.firstRow.source_table_name,'/',variables('start time'))",
 								"type": "Expression"
 							}
 						}
@@ -142,7 +142,7 @@
 				"typeProperties": {
 					"notebookPath": "/Users/deepaaa288@gmail.com/landing_to_bronze",
 					"baseParameters": {
-						"source_system": {
+						" source_system": {
 							"value": "@activity('Read Table Details').output.firstRow.source_system",
 							"type": "Expression"
 						},
